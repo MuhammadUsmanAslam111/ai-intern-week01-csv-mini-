@@ -17,7 +17,7 @@ def save_csv(df, file_path):
 
 if __name__ == "__main__":
 
-    data = read_csv("C:\Users\LENOVO\OneDrive\Desktop\ai‑intern‑week01‑csv‑mini\student_marks.csv")
+    data = read_csv(r"C:\Users\LENOVO\OneDrive\Desktop\ai‑intern‑week01‑csv‑mini\student_marks.csv")
     print(data.head())
     # Rename 'Unnamed: 0' to 'Name'
     data = rename_column(data, 'Unnamed: 0', 'Name')
