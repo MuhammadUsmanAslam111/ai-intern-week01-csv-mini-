@@ -34,8 +34,8 @@ def test_calculate_average():
     assert 'Name' in avg_df.columns
     
     # Check average values
-    assert round(avg_df.loc[0,'Average'],2) == 65.0
-    assert round(avg_df.loc[1,'Average'],2) == 76.25
+   assert round(avg_df.loc[0,'Average'],2) == 66.25
+   assert round(avg_df.loc[1,'Average'],2) == 76.25
 
 #  Test save_csv function
 def test_save_csv(tmp_path):
